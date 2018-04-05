@@ -1,0 +1,105 @@
+body {
+  background-color: grey;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: bolder;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.navbar {
+  box-shadow: 1px 3px 3px grey;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.jumbotron {
+  padding: 100px 10px 60px 10px;
+  width: 80%;
+  margin: auto;
+  box-shadow: 0 0 3px #404040;
+  background-color: #999999;
+  color: white;
+  border-radius: 0px;
+  font-size: 1.4em;
+  text-align: right;
+}
+
+.portfolio {
+  width: 80%;
+  padding: 30px;
+  box-shadow: 0 1px 3px #404040;
+  background-color: #f4f0ef;
+  color: #808080;
+}
+
+.thumbnail img {
+  box-shadow: 1px 1px 3px #404040;
+}
+
+.contactme {
+  width: 80%;
+  box-shadow: 0 1px 3px #404040;
+  padding: 30px;
+  background-color: #f4f0ef;
+  color: #808080;
+}
+
+.ctparagraph {
+  font-size: 1.4em;
+  padding: 8%;
+}
+
+/** contact form css **/
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.6em;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: inherit;
+}
+
+input[type=submit] {
+    background-color: inherit;
+    color: #808080;
+    padding: 12px 20px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #grey;
+    opacity: 0.7;
+}
+
+.contactform {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.text-uppercase, footer p, .footer-copyright, .footer-copyright a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.list-unstyled a {
+  text-decoration: none;
+  color: white;
+
+}
+
+.bold {
+  font-weight: bold;
+}
