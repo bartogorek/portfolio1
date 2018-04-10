@@ -10,12 +10,32 @@ h2 {
   padding-bottom: 30px;
 }
 
+.bg-purple {
+  background-color: purple;
+}
+
+.abtme {
+  text-align: right;
+}
+
 .navbar {
   box-shadow: 1px 3px 3px grey;
 }
 
+.navbar a {
+  color: #808080;
+  font-weight: bolder;
+  font-size: 85%;
+}
+
 .navbar-brand {
   font-weight: bold;
+  color: white;
+}
+
+.hglight {
+  background-color: white;
+  border-radius: 2px;
 }
 
 .jumbotron {
@@ -30,6 +50,12 @@ h2 {
   text-align: right;
 }
 
+.avatar {
+  width: 70%;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
 .portfolio {
   width: 80%;
   padding: 30px;
@@ -40,6 +66,8 @@ h2 {
 
 .thumbnail img {
   box-shadow: 1px 1px 3px #404040;
+  padding: 3px;
+  margin: 4px;
 }
 
 .contactme {
@@ -52,6 +80,7 @@ h2 {
 
 .ctparagraph {
   font-size: 1.4em;
+  text-align: justify;
   padding: 8%;
 }
 
@@ -98,9 +127,48 @@ input[type=submit]:hover {
 .list-unstyled a {
   text-decoration: none;
   color: white;
+}
 
+.social a {
+  color: white;
+  margin: 5px 10px;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+
+}
+
+.social a:hover {
+  color: purple;
+  background-color: white;
+}
+
+.social {
+  text-align: center;
+  margin: 30px 0;
 }
 
 .bold {
   font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 70%;
+  }
+  .jumbotron, .portfolio, .contactme {
+    width: 90%;
+  }
+  .nav-link {
+    padding: 15% 10%;
+    width: 120%;
+    text-align: center;
+  }
+  .jumbotron h2 {
+    padding-top: 20px;
+    text-align: center;
+  }
+  .jumbotron p {
+    text-align: justify;
+  }
 }
